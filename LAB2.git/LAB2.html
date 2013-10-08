@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>Velkommen til en mystisk verden av programmeringspråk</title>
+  <link rel="stylesheet" type="text/css" href="LAB2-style.css">
+  
+<script>
+function favBrowser()
+{
+var mylist=document.getElementById("myList");
+document.getElementById("favorite").value=mylist.options[mylist.selectedIndex].text;
+}
+</script>
+
+</head>
+
+<body>
+<script type="text/javascript">
+window.onload = function() {
+    function clicka() {
+        alert("Under construction!");
+        return false;
+    }
+    document.getElementById('click').onclick = clicka;
+}
+</script>
+<!-- Site navigation menu -->
+<ul class="navbar">
+<li><a href="#"id="click">click</a>
+  <li><a href="index.html">Home page</a>
+  <li><a href="musings.html">Musings</a>
+  <li><a href="town.html">My town</a>
+  <li><a href="links.html">Links</a>
+</ul>
+
+<!-- Main content -->
+<h4> søk i programmeringspråk: </h4>
+<form action="">
+
+<select id="myList" onchange="favBrowser()">
+<option value="Actionscript">Actionscript</option>
+<option value="applescript">Applescript</option>
+<option value="asp">Asp</option>
+<option value="basic">BASIC</option>
+<option value="c++">C++</option>
+<option value="javascript">JavaScript</option>
+
+
+</select>
+<p>Du har selektert programmingsspråk: <input type="text" id="favorite" size="20"></p>
+</form>
+<h1>Velkommen til en mystisk verden av programmeringspråk</h1>
+
+<p>Welcome to my styled page!
+
+<p>It lacks images, but at least it has style.
+And it has links, even if they don't go
+anywhere&hellip;
+
+<p>There should be more here, but I don't know
+what yet.
+
+<!-- Sign and date the page, it's only polite! -->
+<address>Made 18 september 2013<br>
+  by John Sandberg.</address>
+
+</body>
+</html>
