@@ -1,0 +1,51 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="proglangs.css">
+
+<script>
+function favBrowser()
+{
+var mylist=document.getElementById("myList");
+document.getElementById("favorite").value=mylist.options[mylist.selectedIndex].text;
+}
+</script>
+
+</head>
+<body>
+
+<h1>
+LAB1: HTML+CSS+JavaScript
+</h1>
+		
+<h2> <ul>
+Java </ul>		
+</h2>
+
+<h3>
+<ul> C++ </ul>
+</h3>
+
+<h4> 
+<ul> Actionscript </ul>
+</h4	>	
+
+
+
+
+<form action="">
+
+<select id="myList" onchange="favBrowser()">
+<option value="Actionscript">Actionscript</option>
+<option value="applescript">Applescript</option>
+<option value="asp">Asp</option>
+<option value="basic">BASIC</option>
+<option value="c++">C++</option>
+<option value="javascript">JavaScript</option>
+
+
+</select>
+<h4>Program language: <input type="text" id="favorite" size="20"></p>
+</form>
+
+</body>
+</html>

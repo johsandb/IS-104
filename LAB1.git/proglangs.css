@@ -1,0 +1,47 @@
+﻿h1
+{
+font-family: arial, sans-serif;
+text-align:center;
+color:black;
+color: 333333; border-bottom: 1px solid red;
+
+
+}
+
+h2
+{
+font-family: arial, sans-serif;
+text-align:center;
+color:FC8201;
+}
+
+h3
+{
+font-family: arial, sans-serif;
+text-align:center;
+color:333333;
+}
+
+h4
+{
+font-family: arial, sans-serif;
+text-align:center;
+color:F04D4D;
+}
+
+select
+{
+font-family: arial, sans-serif;
+     position: relative;
+     width: 180px;
+     height:30px;
+     font-size:20px;
+     color:#999;
+     margin: 0px auto;
+	 background-color:ffffff;
+}
+
+form
+{
+text-align:center;
+}
